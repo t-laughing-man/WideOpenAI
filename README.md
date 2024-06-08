@@ -3,7 +3,7 @@
 
 This is a list of Azure OpenAI jailbreak prompts based on SQL, Splunk, and other query language syntax. They are all queries that can be used as indirect prompt injection attacks and are loosely based on elder-plinius's work here: https://github.com/elder-plinius/L1B3RT45
 
-Here are some examples:
+Here are some examples using mock PHI and PCI data:
 
 ![success03](https://github.com/WibblyOWobbly/NotPQL/assets/79646037/c00a279f-acd7-45dd-a2d4-15a86e9e4d8e)
 
