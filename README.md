@@ -6,6 +6,7 @@ This is a list of OpenAI jailbreak prompts based on SQL, Splunk, and other query
 These were all tested to work on Azure OpenAI as of June 7, 2024 and are only valid up until this date! 
 
 To make your own use different variations of different query syntaxes. The specific ones that I used for this repo are below:
+
 https://www.w3schools.com/sql/sql_select.asp
 
 https://www.stationx.net/splunk-cheat-sheet/
