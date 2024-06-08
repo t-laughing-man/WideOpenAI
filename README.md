@@ -11,7 +11,9 @@ Here are some examples using mock PHI and PCI data:
 
 (Note: These specific queries were all tested to work on Azure OpenAI apps with Prompt Shield enabled as of June 7, 2024 and are only confirmed to be valid up until this date!)
 
-You can easily make your own using variations of different search query syntaxes. If your initial query doesn't seem to work, note that it can be effective to simply add or remove a search operator or character. The specific query guides that I used for this repo are below:
+You can easily make your own using variations of different search query syntaxes. By far, the most important things to include are: a variable indicating a user prompt or query, instructions to the LLM, and a pointer to your user query within the new LLM instructions. 
+
+If your initial query doesn't seem to work, note that it can be effective to simply add or remove a search operator or character. The specific query guides that I used for this repo are below:
 
 https://www.w3schools.com/sql/sql_select.asp
 
