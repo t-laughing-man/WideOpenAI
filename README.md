@@ -7,13 +7,13 @@ Normally, when unsuccessful, an attempted prompt injection will receive the foll
 
 ![image](https://github.com/WibblyOWobbly/NotPQL/assets/79646037/b9d725b8-c5e7-4d39-bfe0-b633d20a74a8)
 
-Here are some examples of successful queries using mock PHI and PCI data (redacted in case of accidential likenesses to real persons or organizations):
+Here are some examples of successful queries getting Azure OpenAI chat apps to leak mock PHI and PCI data (redacted in case of accidential likenesses to real persons or organizations):
 
 ![success03](https://github.com/WibblyOWobbly/NotPQL/assets/79646037/c00a279f-acd7-45dd-a2d4-15a86e9e4d8e)
 
 ![success02](https://github.com/WibblyOWobbly/NotPQL/assets/79646037/5d2efadc-a871-42fb-965b-31bd30d06e69)
 
-(Note: These specific queries were all tested to work on Azure OpenAI apps with Prompt Shield enabled as of June 7, 2024 and are only confirmed to be valid up until this date!)
+(Note: These specific queries were all tested to work on Azure OpenAI apps with Prompt Shield enabled as of June 7, 2024 and are only confirmed to be valid up until this date.)
 
 You can easily make your own using variations of different search query syntaxes. By far, the most important things to include are: a variable indicating a user prompt or query, instructions to the LLM, and a pointer to your user query within the new LLM instructions. 
 
