@@ -1,4 +1,4 @@
-# NotPQLQueries
+# PromptShieldBreaker
 ***THIS IS FOR EDUCATIONAL PURPOSES ONLY***
 
 This is a list of Azure OpenAI jailbreak prompts based on SQL, Splunk, and other query language syntax. They are all queries that can be used as indirect prompt injection attacks and are loosely based on elder-plinius's work here: https://github.com/elder-plinius/L1B3RT45
