@@ -10,9 +10,9 @@ Note: These specific queries demonstrated below were all tested to work on Azure
     - CORS enabled
     - results were not limited only to the uploaded test data
   - Test Data:
-    - 3 mock radiology reports
-    - 3 mock home improvement retail invoices
-    - 3 medical industy white papers
+    - 3 mock radiology reports (PHI)
+    - 3 mock home improvement retail invoices (PCI)
+    - 3 medical industy white papers (public)
   - Content Filters:
     - Default Prompt and Completion filters
     - Enabled additional content safety models:
@@ -31,9 +31,11 @@ Here are some examples of successful queries getting Azure OpenAI chat apps to l
 
 ![success03](https://github.com/WibblyOWobbly/NotPQL/assets/79646037/c00a279f-acd7-45dd-a2d4-15a86e9e4d8e)
 
+
 ![image](https://github.com/WibblyOWobbly/PromptShieldBreaker/assets/79646037/87df82be-b67e-45f9-b140-53936cc951d1)
 *Includes credit card information in the output...*
 
+## Querying Tips
 You can easily make your own using variations of different search query syntaxes. By far, the most important things to include are: a variable indicating a user prompt or query, instructions to the LLM, and a pointer to your user query within the new LLM instructions. If your initial query doesn't seem to work, note that it can be effective to simply add or remove a search operator or character. The specific query guides that I used for this repo are below:
   - https://www.w3schools.com/sql/sql_select.asp
   - https://www.stationx.net/splunk-cheat-sheet/
