@@ -1,7 +1,7 @@
 # PromptShieldBreaker
 ***THIS REPO IS FOR EDUCATIONAL PURPOSES ONLY!***
 
-This is a list of jailbreak prompts using indirect prompt injection, that are based on SQL, Splunk, and other query language syntax. Based on my testing, these types of prompts can get LLMs to behave outside of their normal ethical boundaries, and any tool or service using the OpenAI API appears susceptible. These were inspired by elder-plinius's work here: https://github.com/elder-plinius/L1B3RT45
+This is a list of jailbreak prompts using indirect prompt injection that are based on SQL, Splunk, and other query language syntax. Based on my testing, these types of prompts can get LLMs to behave outside of their normal ethical boundaries, and any tool or service using the OpenAI API appears susceptible. These were inspired by elder-plinius's work here: https://github.com/elder-plinius/L1B3RT45
 
 **Update:** They have so far been tested and confirmed to work on:
   - Custom Azure OpenAI applications (original research, as of June 7, 2024)
