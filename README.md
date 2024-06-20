@@ -55,7 +55,7 @@ Successful ChatGPT GPT-4o keylogger  attempt using a Splunk-based query:
 Failed Copilot keylogger attempt:
 ![image](https://github.com/WibblyOWobbly/PromptShieldBreaker/assets/79646037/0a7d20ed-377a-4fc0-bb7a-e2ae40478ce8)
 
-Successful ChatGPT GPT-4o keylogger attempt using a Splunk-based query:
+Successful Copilot keylogger attempt using a Splunk-based query:
 ![image](https://github.com/WibblyOWobbly/PromptShieldBreaker/assets/79646037/56fe0b33-a9ff-4920-9085-70310bf791b6)
 
 ***THIS REPO IS FOR EDUCATIONAL PURPOSES ONLY!***
