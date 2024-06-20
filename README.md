@@ -4,9 +4,9 @@
 This is a list of jailbreak prompts based on SQL, Splunk, and other query language syntax. Based on my testing, any tool or service using the OpenAI API is susceptible. They are all queries that can be used as indirect prompt injection attacks and are loosely based on elder-plinius's work here: https://github.com/elder-plinius/L1B3RT45
 
 **Update:** They have so far been tested and confirmed to work on:
-  - Custom Azure OpenAI applications (original, as of June 7, 2024)
-  - Microsoft Copilot (new, as of June 19, 2024)
-  - ChatGPT GPT-4o (new, as of June 19, 2024)
+  - Custom Azure OpenAI applications (original research, as of June 7, 2024)
+  - Stock Microsoft Copilot - Balanced (new, as of June 19, 2024)
+  - Stock ChatGPT GPT-4o (new, as of June 19, 2024)
 
 ## Azure OpenAI Test Environment Configuration
 Note: The apps tested had the following configurations:
